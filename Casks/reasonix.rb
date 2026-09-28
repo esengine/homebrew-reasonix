@@ -6,25 +6,25 @@ cask "reasonix" do
     end
   end
 
-  version "1.39.2"
+  version "1.39.3"
 
   on_macos do
     on_arm do
-      sha256 "f1d56e2d2694377584bd817c9018ebdb8eb49cec2ed595c7601633e6c8cab654"
+      sha256 "a3ce77d2c819ccf03cf966cb274e5b0b6d293cb1a5680aba39ba4dfdca7f4867"
       url "https://github.com/esengine/DeepSeek-Reasonix/releases/download/v#{version}/reasonix-darwin-arm64.tar.gz"
     end
     on_intel do
-      sha256 "c4d94907187b1ce890f1c1aa348534d17d3122b0b1cff41eaddfe9761ef3be14"
+      sha256 "305d418ea582f39034484e299cb2e0343f62e98ebbe4e30affa4fa3f90641b07"
       url "https://github.com/esengine/DeepSeek-Reasonix/releases/download/v#{version}/reasonix-darwin-amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "3c25b4f2689141cd668093030b8da1b3ef27cf716cf9350fe9506a2174056056"
+      sha256 "f2464d950c0c965ab34308f32160bc4f35b04d1bf0720d536277bfb585ab207e"
       url "https://github.com/esengine/DeepSeek-Reasonix/releases/download/v#{version}/reasonix-linux-arm64.tar.gz"
     end
     on_intel do
-      sha256 "ae0537dd533b6179787e9c261155a06991880eb53c532ef3c88f421f634e0109"
+      sha256 "f3689aea1f7088c89d842b892bd9ff50f8da2412442a6ebeb832f5de1f26ab8e"
       url "https://github.com/esengine/DeepSeek-Reasonix/releases/download/v#{version}/reasonix-linux-amd64.tar.gz"
     end
   end
